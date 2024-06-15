@@ -1,0 +1,5 @@
+Foram implementadas funções adicionais ao projeto:
+
+- o clique no ícone "casa" direciona para a página inicial
+- caso digitado na url algo inexistente aparecerá uma página de erro
+- se a lista não estiver preenchida aparecerá "A lista está vazia, adicione novas motos..."

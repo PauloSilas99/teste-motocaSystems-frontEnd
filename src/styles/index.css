@@ -1,0 +1,172 @@
+
+*{
+/* background: rgba(42, 35, 60, 1); */
+font-family: poppins;
+}
+body{
+  background: rgba(42, 35, 60, 1);
+}
+.headerDiv{
+display: flex;
+align-items: flex-end;
+justify-content: flex-end;
+padding: 14px 40px;
+}
+.DivImgHome{
+margin-right: 18px;
+}
+.DivTabelaBuscar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 50px;
+  border-bottom: 0.5px solid rgba(202, 201, 205, 1);
+  padding-bottom: 8px;
+}
+.DivTabelaBuscar h3{
+  color: rgba(202, 201, 205, 1);
+}
+.btnAdd{
+  background: rgba(59, 173, 251, 1);
+  width: 144px;
+  height: 36px;
+  border-radius: 6px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:8px
+}
+.btnAdd img{
+  background:rgba(59, 173, 251, 1);
+}
+.inputBuscar{
+  width: 360px;
+  height: 30px;
+  /* border: 0.05px solid rgba(255, 255, 255, 1); */
+  background-color: rgba(42, 35, 60, 1);
+  border-radius: 5px;
+  color: rgb(211, 211, 211);
+  padding: 1px 14px;
+  padding-left: 38px;
+  border: 0.5px solid rgba(202, 201, 205, 1)
+}
+.inputBuscar::placeholder{
+  color: rgba(202, 201, 205, 1);
+}
+.ItemMoto{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0px 56px;
+  border-radius: 10px;
+  background:rgba(49, 45, 75, 1);
+}
+.DivCodigo,
+.DivCodigo h3{
+  background:rgba(49, 45, 75, 1);
+  color:rgba(140, 87, 255, 1)
+}
+.DivInfo,
+.DivInfo p{
+  background:rgba(49, 45, 75, 1);
+  color: rgba(231, 227, 252, 1);
+}
+.DivNomeStatus{
+  display:flex;
+  height: 45px;
+  gap:20px;
+  align-Items:center;
+  margin-bottom: -10px;
+  margin-top: 8px;
+}
+.DivNomeStatus h4,
+.DivNomeStatus{
+  background:rgba(49, 45, 75, 1);
+}
+.DivBtns{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background:rgba(49, 45, 75, 1);
+}
+.btnExcluir{
+  border: none;
+  background:rgba(49, 45, 75, 1);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+fieldset{
+  width: 30%;
+  height: 40px;
+  border-radius: 5px;
+}
+fieldset input,select{
+  border: none;
+  width: 100%;
+  color: rgba(231, 227, 252, 1);
+  background: rgba(42, 35, 60, 1);
+  /* margin-bottom: 50px; */
+}
+fieldset input:focus{
+  outline: none;
+}
+legend{
+  color: rgba(231, 227, 252, 1);
+}
+form{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.btnAddEdit{
+  background: rgba(59, 173, 251, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  width: 32%;
+  height: 45px;
+  margin-top:20px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.btnAddEdit img{
+  background: rgba(59, 173, 251, 1);
+}
+.linkEditar {
+  background: rgba(49, 45, 75, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+}
+.efeitoIcon{
+  animation: spin 1s linear infinite;
+  border-radius: 50%;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg); /* Começa a rotação a partir de 0 graus */
+  }
+  to {
+    transform: rotate(360deg); /* Completa a rotação em 360 graus */
+  }
+}
+.IconBuscar{
+  pointer-events: none;
+  position: absolute;
+  margin-top: 9px;
+  margin-left: 14px;
+}
+
